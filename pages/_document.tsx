@@ -1,4 +1,6 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from "next/document";
+import React from "react";
+import { GrafanaDashboardButton } from "./GrafanaDashboardButton";
 
 export default function Document() {
   return (
@@ -7,7 +9,8 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <GrafanaDashboardButton />
       </body>
     </Html>
-  )
+  );
 }
